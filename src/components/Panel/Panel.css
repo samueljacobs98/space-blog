@@ -1,0 +1,18 @@
+.panel {
+  background-color: var(--colour-secondary);
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.panel__subtitle {
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+
+.panel__title {
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: var(--colour-tertiary);
+}
