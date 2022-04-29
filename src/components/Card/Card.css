@@ -1,6 +1,5 @@
 .card {
   width: 100%;
-  height: 37.5rem;
   max-width: 25rem;
   border-radius: 1rem;
   background-color: var(--colour-secondary);
@@ -10,19 +9,18 @@
 
 .card__image {
   width: 100%;
-  height: 50%;
   border-radius: 1rem 1rem 0 0;
   object-fit: cover;
 }
 
 .card__info {
-  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
-  padding: 0.5rem;
+  padding: 0.75rem;
+  padding-bottom: 3rem;
 }
 
 .card__info-source,
@@ -40,22 +38,35 @@
   align-items: center;
   border-radius: 50%;
   position: absolute;
-  top: calc(50% - 1.25rem);
-  left: calc(50% - 1.25rem);
+  bottom: 0;
+  margin: 0 auto;
+  transform: translate(-50%, 50%);
 }
 
 .card:hover .card__rocket > img {
-  animation: bulge 2s ease-in-out infinite;
+  animation: bulge 5s ease-in-out infinite;
 }
 
 @keyframes bulge {
   0% {
     transform: scale(1);
   }
-  50% {
+  15% {
     transform: scale(1.2);
   }
-  100% {
+  30% {
     transform: scale(1);
+  }
+  45% {
+    transform: scale(1.2);
+  }
+  60% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
   }
 }
