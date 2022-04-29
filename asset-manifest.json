@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/space-blog/static/css/main.44c0db8c.css",
+    "main.css": "/space-blog/static/css/main.600c616c.css",
     "main.js": "/space-blog/static/js/main.3234e6a3.js",
     "static/media/rocket.svg": "/space-blog/static/media/rocket.fbac9c85e540e85fd438f92e2513b1f3.svg",
     "index.html": "/space-blog/index.html",
-    "main.44c0db8c.css.map": "/space-blog/static/css/main.44c0db8c.css.map",
+    "main.600c616c.css.map": "/space-blog/static/css/main.600c616c.css.map",
     "main.3234e6a3.js.map": "/space-blog/static/js/main.3234e6a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c0db8c.css",
+    "static/css/main.600c616c.css",
     "static/js/main.3234e6a3.js"
   ]
 }
